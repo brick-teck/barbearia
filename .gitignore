@@ -1,0 +1,5 @@
+# Arquivos gerados durante a validação e o empacotamento local.
+.qa/
+barbearia-demo.zip
+Thumbs.db
+.DS_Store

@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "name": "file:// abre com 6 serviços, 3 planos, 6 profissionais e 6 fotos",
+      "passed": true
+    },
+    {
+      "name": "planos substituem Sobre e aparecem uma única vez logo após a faixa",
+      "passed": true
+    },
+    {
+      "name": "imagens locais carregam",
+      "passed": true
+    },
+    {
+      "name": "unidades: troca e cliques rápidos mantêm imagem, mapa e mensagem WhatsApp corretos",
+      "passed": true
+    },
+    {
+      "name": "filtros e agendamento do profissional preservam unidade",
+      "passed": true
+    },
+    {
+      "name": "FAQ abre, fecha e permite navegação por teclado",
+      "passed": true
+    },
+    {
+      "name": "lightbox amplia e navega por setas, fecha restaurando foco",
+      "passed": true
+    },
+    {
+      "name": "todos os agendamentos e planos geram número, mensagem e proteção corretos",
+      "passed": true
+    },
+    {
+      "name": "apps no Hero: links vazios abrem aviso; links configurados dispensam edição HTML",
+      "passed": true
+    },
+    {
+      "name": "contato e redes preservam modais informativos e restauração de foco",
+      "passed": true
+    },
+    {
+      "name": "larguras 320, 375, 430, 768, 1024, 1440, 1920 sem overflow horizontal",
+      "passed": true
+    },
+    {
+      "name": "menu mobile, teclado Escape e CTA sem fundo focável",
+      "passed": true
+    },
+    {
+      "name": "movimento reduzido: conteúdo visível e animações desativadas",
+      "passed": true
+    },
+    {
+      "name": "Google Maps estado observado",
+      "status": "Se o mapa não aparecer, use “Como chegar” para abrir o Google Maps."
+    },
+    {
+      "name": "mapa carrega e troca referência, com alternativa externa",
+      "passed": true
+    },
+    {
+      "name": "âncoras internas e botão voltar ao topo",
+      "passed": true
+    },
+    {
+      "name": "offline: mapa mantém alternativa elegante e app local funciona",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "failedRequestsOnline": [],
+  "intentionalOfflineFailures": [
+    {
+      "requestId": "6300.115",
+      "timestamp": 48905.592232,
+      "type": "Stylesheet",
+      "errorText": "net::ERR_INTERNET_DISCONNECTED",
+      "canceled": false
+    }
+  ],
+  "fonts": []
+}

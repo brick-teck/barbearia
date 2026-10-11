@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B0B0B">
+  <meta name="description" content="BARBER HOUSE: demonstração de uma barbearia premium. Explore serviços, profissionais e duas unidades fictícias em uma experiência de estilo.">
+  <title>BARBER HOUSE — Mais que um corte. Uma experiência.</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+      <symbol id="icon-arrow-up" viewBox="0 0 24 24"><path d="M12 20V4m-6 6 6-6 6 6"/></symbol>
+      <symbol id="icon-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="m8.2 8.2 12.3 12.3M8.2 15.8 20.5 3.5M12 12l-2-2"/></symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24"><path d="m6 3 3 5-2 2c2 4 3 5 7 7l2-2 5 3-1 3C10 23 1 14 3 4Z"/></symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/></symbol>
+      <symbol id="icon-razor" viewBox="0 0 24 24"><path d="m4 16 10-10 6 6-10 10-6-6Zm10-10 2-2 6 6-2 2M6 18 2 22M10 14l6-6"/></symbol>
+      <symbol id="icon-comb" viewBox="0 0 24 24"><path d="M3 5h18v4H3zM4 9v10M8 9v10M12 9v10M16 9v10M20 9v10"/></symbol>
+      <symbol id="icon-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="icon-drop" viewBox="0 0 24 24"><path d="M12 2S5 10 5 15a7 7 0 0 0 14 0c0-5-7-13-7-13Z"/><path d="M9 15a3 3 0 0 0 3 3"/></symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3l-5.6 2.9 1.1-6.2L3 9.6l6.2-.9Z"/></symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-14 4h3m4 0h3"/></symbol>
+      <symbol id="icon-apple" viewBox="0 0 24 24"><path class="icon-fill" d="M15.7 2c.2 1.7-.6 3.2-1.7 4.2-.8.8-1.8 1.1-2.8 1 .1-1.6.6-2.7 1.5-3.5.9-.9 2-1.4 3-1.7ZM19.9 9.4c-1.7 1-2.2 2.4-1.9 3.9.2 1.5 1.1 2.6 2.5 3.1-.8 2.1-2.6 5.7-4.5 5.6-1.3 0-1.8-.8-3.5-.8s-2.3.8-3.5.8C6.5 22 3.3 16.3 3.5 12.3c.1-3 1.8-4.8 4.1-5.1 1.6-.2 3.1.8 4.2.8s2.4-1 4-.9c1.8.1 3.1.9 4.1 2.3Z"/></symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24"><path d="m4 3 17 9-17 9V3Zm0 0 10 9L4 21m10-9 3-2m-3 2 3 2"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Barber House — início"><svg class="brand-icon icon" aria-hidden="true"><use href="#icon-scissors"/></svg><span>BARBER<span class="brand-gold">HOUSE</span><small>BARBEARIA & ESTILO</small></span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#inicio" class="active">Início</a><a href="#clube">Planos</a><a href="#servicos">Serviços</a><a href="#equipe">Equipe</a><a href="#unidades">Unidades</a><a href="#contato">Contato</a>
+      </nav>
+      <button class="button button-gold header-cta" data-book>Agendar horário <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação mobile" hidden>
+      <a href="#inicio">Início</a><a href="#clube">Planos</a><a href="#servicos">Serviços</a><a href="#equipe">Equipe</a><a href="#unidades">Unidades</a><a href="#contato">Contato</a>
+      <button class="button button-gold" data-book>Agendar horário <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+      <p class="demo-note">Uma experiência demonstrativa.</p>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-visual" aria-hidden="true"><img id="hero-image-centro" class="hero-image is-active" src="assets/images/centro.jpg" alt="" width="1920" height="2880" fetchpriority="high"><img id="hero-image-jardins" class="hero-image" src="assets/images/jardins.jpg" alt="" width="1920" height="2880"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-side-note" aria-hidden="true">CUIDADO QUE SE SENTE. ESTILO QUE SE VÊ.</div>
+      <div class="container hero-content">
+        <p class="eyebrow hero-enter"><span class="small-line"></span> Experiência premium</p>
+        <h1 id="hero-title" class="hero-enter">MAIS QUE<br>UM CORTE.<br><span>UMA EXPERIÊNCIA.</span></h1>
+        <p class="hero-subtitle hero-enter">Tradição, estilo e excelência em cada detalhe.</p>
+        <div class="hero-actions hero-enter"><button class="button button-gold" data-book data-selected-unit>Agendar horário <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><a class="button button-outline" href="#servicos">Explorar serviços</a></div>
+        <div class="hero-apps hero-enter"><p>AGENDE TAMBÉM PELO NOSSO APP</p><div class="store-buttons"><button class="store-button" data-app="ios"><svg class="icon store-icon" aria-hidden="true"><use href="#icon-apple"/></svg><span><small>Baixar para iOS</small><strong>App Store</strong></span></button><button class="store-button" data-app="android"><svg class="icon store-icon" aria-hidden="true"><use href="#icon-play"/></svg><span><small>Disponível no Android</small><strong>Google Play</strong></span></button></div><span class="hero-app-note">Links de download em preparação.</span></div>
+      </div>
+      <div class="container hero-bottom">
+        <div class="hero-unit-area">
+          <p class="unit-prompt">DUAS CASAS. A MESMA ESSÊNCIA.</p>
+          <div class="hero-unit-buttons" role="group" aria-label="Escolha sua unidade">
+            <button class="hero-unit is-active" data-unit="centro" aria-pressed="true"><img src="assets/images/centro.jpg" width="64" height="64" alt=""><span><small>01 — SUA PAUSA NA CIDADE</small><strong>UNIDADE CENTRO</strong></span><span class="unit-indicator" aria-hidden="true"></span></button>
+            <button class="hero-unit" data-unit="jardins" aria-pressed="false"><img src="assets/images/jardins.jpg" width="64" height="64" alt=""><span><small>02 — SEU REFÚGIO DE ESTILO</small><strong>UNIDADE JARDINS</strong></span><span class="unit-indicator" aria-hidden="true"></span></button>
+          </div>
+          <div class="hero-unit-details" id="hero-unit-details" aria-live="polite"><p id="hero-unit-description">O ritmo da cidade. O seu momento de pausa.</p><p class="hero-address"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg><span id="hero-unit-address">Referência ilustrativa: Praça da Sé, São Paulo</span></p></div>
+        </div>
+        <a class="scroll-cue" href="#clube"><span>CONHEÇA O CLUBE</span><span class="scroll-circle" aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-demo-label">CONCEITO DEMONSTRATIVO · MARCA FICTÍCIA</div>
+    </section>
+
+    <div class="craft-strip" aria-hidden="true"><span>CORTE COM PERSONALIDADE</span><svg class="icon"><use href="#icon-spark"/></svg><span>BARBA COM PRECISÃO</span><svg class="icon"><use href="#icon-spark"/></svg><span>SEU MOMENTO. SEU ESTILO.</span></div>
+
+    <section class="section club" id="clube" aria-labelledby="club-title">
+      <div class="container"><div class="center-heading reveal"><p class="eyebrow">Clube de assinaturas</p><h2 id="club-title">SEU <span class="text-gold">ESTILO.</span> TODOS OS MESES.</h2><p>Mais praticidade para sua rotina, com planos pensados<br class="desktop-break"> para manter seu visual sempre em dia.</p><span class="demo-tag">PLANOS E VALORES ILUSTRATIVOS</span></div><div class="plans-grid" id="plans-grid"></div><p class="demo-note section-note">Preços e benefícios fictícios. Converse sobre o plano pelo WhatsApp, sem contratação ou pagamentos pelo website.</p></div>
+    </section>
+
+    <section class="section services section-surface" id="servicos" aria-labelledby="services-title">
+      <div class="container"><div class="section-heading reveal"><div><p class="eyebrow">O cuidado está nos detalhes</p><h2 id="services-title">NOSSOS <span class="text-gold">SERVIÇOS.</span></h2></div><p>Cuidado e precisão em cada detalhe.<br>Encontre o seu próximo ritual.</p></div><div class="services-grid" id="services-grid"></div><p class="demo-note section-note">Serviços, duração e preços ilustrativos. Nenhum agendamento é realizado neste website.</p></div>
+    </section>
+
+
+    <section class="section team section-surface" id="equipe" aria-labelledby="team-title">
+      <div class="container"><div class="section-heading reveal"><div><p class="eyebrow">Talento que faz a diferença</p><h2 id="team-title">OS ARTISTAS POR<br>TRÁS DO <span class="text-gold">ESTILO.</span></h2></div><div class="filter-group" role="group" aria-label="Filtrar profissionais por unidade"><button data-filter="all" aria-pressed="true" class="is-active">Todos</button><button data-filter="centro" aria-pressed="false">Centro</button><button data-filter="jardins" aria-pressed="false">Jardins</button></div></div><p class="demo-note team-disclaimer">Equipe fictícia. Nomes e especialidades são exemplos; fotos de banco de imagens não representam profissionais da marca.</p><p class="sr-only" id="team-status" role="status"></p><div class="team-grid" id="team-grid"></div></div>
+    </section>
+
+    <section class="section gallery" id="galeria" aria-labelledby="gallery-title">
+      <div class="container"><div class="section-heading reveal"><div><p class="eyebrow">Entre. Sinta-se em casa.</p><h2 id="gallery-title">NOSSO ESPAÇO.<br><span class="text-gold">NOSSA IDENTIDADE.</span></h2></div><p>Uma atmosfera que convida a ficar.<br>Fotografias ilustrativas de inspiração.</p></div><div class="gallery-grid" id="gallery-grid"></div></div>
+    </section>
+
+    <section class="section locations section-surface" id="unidades" aria-labelledby="locations-title">
+      <div class="container"><div class="section-heading reveal"><div><p class="eyebrow">Duas unidades. Uma experiência.</p><h2 id="locations-title">ENCONTRE <span class="text-gold">SUA UNIDADE.</span></h2></div><p>Escolha a casa que combina<br>com o seu caminho.</p></div><div class="location-disclaimer"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg><p>As unidades são fictícias. Praça da Sé e MASP são referências públicas reais usadas apenas para demonstrar o mapa; não são endereços da Barber House.</p></div><div class="locations-layout"><div class="location-cards" id="location-cards"></div><div class="map-panel reveal"><div class="map-heading"><div><small>LOCALIZAÇÃO DE REFERÊNCIA</small><h3 id="map-title">Praça da Sé</h3></div><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg></div><div class="map-stage" id="map-stage"><div class="map-placeholder" id="map-placeholder"><div class="map-lines" aria-hidden="true"></div><div class="map-marker"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg></div><p>Explore a região no mapa</p><span>Referência pública · São Paulo</span><button class="button button-gold" id="load-map">Carregar mapa interativo <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></div><iframe id="map-frame" title="Mapa demonstrativo — referência pública Praça da Sé" referrerpolicy="no-referrer-when-downgrade" hidden></iframe></div><div class="map-footer"><p id="map-status" role="status">Google Maps será carregado ao clicar.</p><a class="text-button" id="map-directions" href="https://www.google.com/maps/dir/?api=1&destination=Pra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A3o%20Paulo%2C%20Brasil" target="_blank" rel="noopener noreferrer">Como chegar <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg><span class="sr-only"> à referência pública, em nova aba</span></a></div></div></div></div>
+    </section>
+
+    <section class="section app-section" id="agendamento" aria-labelledby="app-title">
+      <div class="container app-layout"><div class="app-copy reveal"><p class="eyebrow">Seu tempo também merece cuidado</p><h2 id="app-title">SEU PRÓXIMO CORTE<br>ESTÁ A <span class="text-gold">UM CLIQUE.</span></h2><p>Escolha sua unidade, encontre seu profissional e reserve um momento para você. Converse pelo WhatsApp para combinar seu próximo horário.</p><button class="button button-gold" data-book>Agendar agora <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><div class="store-buttons"><button class="store-button" data-app="ios"><svg class="icon store-icon" aria-hidden="true"><use href="#icon-apple"/></svg><span><small>Baixar para iOS</small><strong>App Store</strong></span></button><button class="store-button" data-app="android"><svg class="icon store-icon" aria-hidden="true"><use href="#icon-play"/></svg><span><small>Disponível no Android</small><strong>Google Play</strong></span></button></div><p class="demo-note">Interface ilustrativa. Links de download em preparação.</p></div><div class="phone-scene reveal"><span class="phone-orbit" aria-hidden="true"></span><div class="phone-mockup" aria-label="Mockup ilustrativo de aplicativo de agendamento"><div class="phone-notch" aria-hidden="true"></div><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▰</span></div><div class="phone-brand">BARBER<span>HOUSE</span></div><div class="phone-welcome"><small>SEU MOMENTO DE CUIDADO</small><h3>Olá, seja bem-vindo.</h3><p>Qual vai ser o ritual de hoje?</p></div><img class="phone-image" src="assets/images/atendimento.jpg" width="1200" height="800" loading="lazy" alt="Atendimento de barbearia em imagem ilustrativa"><div class="phone-unit"><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg><span>Unidade <strong id="phone-unit-name">Centro</strong></span><span aria-hidden="true">⌄</span></div><div class="phone-service"><svg class="icon" aria-hidden="true"><use href="#icon-scissors"/></svg><div><strong>Corte + Barba</strong><small>60 min · Seu ritual completo</small></div><span>R$ 70</span></div><button class="button button-gold phone-button" data-book data-selected-unit data-service="Corte + Barba">Agendar pelo WhatsApp <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><span class="phone-demo">PRÉVIA DEMONSTRATIVA</span><div class="phone-home" aria-hidden="true"></div></div><div class="phone-floating"><svg class="icon" aria-hidden="true"><use href="#icon-calendar"/></svg><span>MAIS ESTILO.<br>MENOS COMPLICAÇÃO.</span></div></div></div>
+    </section>
+
+    <section class="section testimonials section-surface" id="depoimentos" aria-labelledby="testimonials-title"><div class="container"><div class="center-heading reveal"><p class="eyebrow">A experiência em palavras</p><h2 id="testimonials-title">QUEM CONHECE, <span class="text-gold">RECOMENDA.</span></h2><p>Depoimentos fictícios — exemplos de layout, sem avaliações reais.</p></div><div class="testimonials-grid" id="testimonials-grid"></div></div></section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title"><div class="container faq-layout"><div class="faq-intro reveal"><p class="eyebrow">Antes do seu próximo corte</p><h2 id="faq-title">BOAS PERGUNTAS.<br><span class="text-gold">RESPOSTAS DIRETAS.</span></h2><p>Tudo o que você precisa saber<br>sobre esta experiência demonstrativa.</p><button class="text-button" data-info="contact">Fale com a casa <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></div><div class="faq-list reveal" id="faq-list"></div></div></section>
+
+    <section class="final-cta" aria-labelledby="final-title"><img src="assets/images/atendimento.jpg" width="1200" height="800" loading="lazy" alt=""><div class="container final-content reveal"><p class="eyebrow">O seu estilo merece esse momento</p><h2 id="final-title">SEU PRÓXIMO VISUAL<br><span class="text-gold">COMEÇA AQUI.</span></h2><p>Escolha sua unidade e descubra uma nova experiência.</p><div class="final-actions"><button class="button button-gold" data-book data-book-unit="centro">Agendar no Centro <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><button class="button button-outline" data-book data-book-unit="jardins">Agendar no Jardins <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button></div></div></section>
+  </main>
+
+  <footer class="footer" id="contato"><div class="container"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#inicio"><svg class="brand-icon icon" aria-hidden="true"><use href="#icon-scissors"/></svg><span>BARBER<span class="brand-gold">HOUSE</span><small>BARBEARIA & ESTILO</small></span></a><p>Tradição no cuidado.<br>Personalidade no estilo.</p><div class="social-buttons"><button class="icon-button" data-info="social" aria-label="Instagram demonstrativo"><svg class="icon" aria-hidden="true"><use href="#icon-instagram"/></svg></button><button class="icon-button" data-info="social" aria-label="Facebook demonstrativo"><span aria-hidden="true">f</span></button></div></div><div><h3>A CASA</h3><a href="#clube">Planos de assinatura</a><a href="#equipe">Profissionais</a><a href="#galeria">Nosso espaço</a><a href="#faq">Perguntas frequentes</a></div><div><h3>SEU CUIDADO</h3><a href="#servicos">Corte masculino</a><a href="#servicos">Barba completa</a><a href="#servicos">Corte + barba</a><a href="#clube">Barber House Club</a></div><div><h3>ENCONTRE A CASA</h3><a href="#unidades" data-footer-unit="centro">Unidade Centro</a><a href="#unidades" data-footer-unit="jardins">Unidade Jardins</a><button class="footer-text-button" data-info="contact">Contato demonstrativo</button><p class="demo-note">(11) 0000-0000 · ilustrativo<br>contato@barberhouse.example</p></div></div><div class="footer-bottom"><p>© <span id="year">2026</span> BARBER HOUSE. Conceito demonstrativo.</p><p>Website demonstrativo. Marca, serviços, valores e informações fictícios.</p></div><div class="footer-credits"><a href="https://www.pexels.com/license/" target="_blank" rel="noopener noreferrer">Fotografias ilustrativas · Pexels<span class="sr-only"> — licença em nova aba</span></a><span>FEITO PARA INSPIRAR SEU PRÓXIMO ESTILO.</span></div></div></footer>
+
+  <button class="back-to-top icon-button" id="back-to-top" aria-label="Voltar ao topo" hidden><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up"/></svg></button>
+
+  <dialog class="demo-dialog" id="demo-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><button class="dialog-close icon-button" data-close-dialog aria-label="Fechar janela"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button><p class="eyebrow">Barber House · demonstração</p><div class="dialog-emblem"><svg class="icon" aria-hidden="true"><use href="#icon-scissors"/></svg></div><h2 id="dialog-title">SEU MOMENTO<br>COMEÇA AQUI.</h2><div class="dialog-context" id="dialog-context"></div><p id="dialog-description"></p><p class="dialog-note" id="dialog-note"></p><button class="button button-gold dialog-done" data-close-dialog autofocus>Entendi <svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg></button></dialog>
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title"><button class="lightbox-close icon-button" data-close-lightbox aria-label="Fechar imagem ampliada"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button><div class="lightbox-media"><img id="lightbox-image" src="assets/images/centro.jpg" alt=""><button class="lightbox-prev icon-button" id="lightbox-prev" aria-label="Imagem anterior">←</button><button class="lightbox-next icon-button" id="lightbox-next" aria-label="Próxima imagem">→</button></div><div class="lightbox-caption" aria-live="polite"><div><h2 id="lightbox-title">Detalhes que acolhem</h2><p id="lightbox-subtitle">Fotografia ilustrativa</p></div><span id="lightbox-count">1 / 6</span></div></dialog>
+  <noscript><p class="noscript-note">Ative o JavaScript para explorar serviços, planos, equipe e as interações desta demonstração. A apresentação visual e a navegação permanecem disponíveis.</p></noscript>
+</body>
+</html>

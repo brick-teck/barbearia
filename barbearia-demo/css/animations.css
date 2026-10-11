@@ -1,0 +1,22 @@
+@keyframes hero-enter { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes content-fade { from { opacity: .15; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes menu-enter { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+.hero-enter { animation: hero-enter .9s var(--ease) both; }
+.hero-enter:nth-child(2) { animation-delay: .12s; }
+.hero-enter:nth-child(3) { animation-delay: .24s; }
+.hero-enter:nth-child(4) { animation-delay: .36s; }
+.hero-enter:nth-child(5) { animation-delay: .44s; }
+.reveal { opacity: 1; transform: none; }
+.motion-ready .reveal:not(.is-visible) { opacity: 0; transform: translateY(24px); }
+.motion-ready .reveal { transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.hero-unit-details.is-changing { animation: content-fade .5s var(--ease); }
+.team-card { animation: content-fade .45s var(--ease) both; }
+.mobile-nav:not([hidden]) { animation: menu-enter .25s var(--ease); }
+dialog[open] { animation: content-fade .25s var(--ease); }
+.faq-answer:not([hidden]) { animation: content-fade .25s var(--ease); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .motion-ready .reveal:not(.is-visible) { opacity: 1; transform: none; }
+  .service-card:hover, .plan-card:hover, .team-card:hover img, .gallery-item:hover img, .text-button:hover .icon { transform: none; }
+}
